@@ -18,7 +18,7 @@ import {
   
 
   
-  // Test the 'hello-world' function
+  // Test the 'date' function
   const testDate = async () => {
     const client: SupabaseClient = createClient(supabaseUrl, supabaseKey, options)
     const date = format(new Date(), "yyyy-MM-dd HH:mm:ss")
